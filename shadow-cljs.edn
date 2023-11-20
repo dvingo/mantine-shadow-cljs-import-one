@@ -1,0 +1,11 @@
+{:source-paths ["src"]
+ :dev-http {5000 "build/browser"}
+ :builds
+ {:browser {:target :browser
+            :output-dir "build/browser"
+            :asset-path "."
+            :build-hooks [(shadow.cljs.build-report/hook {:output-to "build/browser/build-report.html"})]
+            ;; :js-options {;:entry-keys ["module" "browser" "main"]
+            ;;             ;;  :resolve {"@mantine/core" {:target :npm :require "@mantine/core/esm/index.mjs"}}
+            ;;              }
+            :modules {:browser-main {:init-fn browser.main/init}}}}}
