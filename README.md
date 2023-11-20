@@ -15,3 +15,9 @@ npm run watch
 ```
 
 You will see the compilation failure.
+
+```
+package @mantine/core had exports, but could not resolve ./cjs/core/MantineProvider/MantineProvider
+{:package #object[java.io.File 0x89fce71 "/home/user/shadow-cljs-mantine/node_modules/@mantine/core"], :require-from nil, :rel-require "./cjs/core/MantineProvider/MantineProvider"}
+ExceptionInfo: package @mantine/core had exports, but could not resolve ./cjs/core/MantineProvider/MantineProvider
+```

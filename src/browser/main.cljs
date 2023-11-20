@@ -2,7 +2,7 @@
   (:require
    ["react" :as react]
    ["react-dom/client" :as react-dom]
-   ["@mantine/core/cjs/core/MantineProvider/MantineProvider.js" :as MantineProvider]
+   ["@mantine/core/cjs/core/MantineProvider/MantineProvider" :as MantineProvider]
   ;;  ["@mantine/core" :as mantine]
    ))
 
